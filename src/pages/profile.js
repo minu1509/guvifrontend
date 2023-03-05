@@ -20,7 +20,7 @@ export class Profile extends Component {
     if (items) {
      this.setState({userName: items})
     }
-    fetch(`https://signup-backend.netlify.app//api/read-profile/${localStorage.getItem('username')}`, {
+    fetch(`https://guvibackend.netlify.app/api/read-profile/${localStorage.getItem('username')}`, {
       "method": "GET",
       "headers": {
         "content-type": "application/json",
