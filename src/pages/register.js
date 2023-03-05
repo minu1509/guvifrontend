@@ -26,7 +26,7 @@ export class Register extends Component {
 
   handleSubmit = (e) => {
     console.log("submit")
-    fetch("http://localhost:5000/api/signup", {
+    fetch("https://guvibackend.netlify.app/api/signup", {
       "method": "POST",
       "headers": {
         "content-type": "application/json",
