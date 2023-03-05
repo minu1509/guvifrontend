@@ -25,7 +25,7 @@ export class Login extends Component {
     // const navigate = useNavigate();
     let { history } = this.props
     console.log("submit")
-    fetch(`https://signup-backend.netlify.app/api/login/${this.state.username}/${this.state.password}`, {
+    fetch(`https://https://guvibackend.netlify.app/api/login/${this.state.username}/${this.state.password}`, {
       "method": "GET",
       "headers": {
         "content-type": "application/json",
